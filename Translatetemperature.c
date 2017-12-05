@@ -13,7 +13,7 @@ int main( int argc, char* argv[])
         {
             case 'C':
                 case 'c':
-                    if ( input > -273,15 )
+                    if ( input > -273.15 )
                     {
                         farn = input*9/5+32;
                         kel = input+273.15;
@@ -39,7 +39,7 @@ int main( int argc, char* argv[])
                     break;
             case 'F':
                 case 'f':
-                    if ( input > -459,67 )
+                    if ( input > -459.67 )
                     {
                         cel = (input-32)*5/9.0;
                         kel = cel-273.15;
@@ -55,7 +55,7 @@ int main( int argc, char* argv[])
     else
     if ( argc == 2 )
     {
-        if ( input > -273,15 )
+        if ( input > -273.15 )
         {
             farn = input*9/5.0+32;
             kel = input+273.15;
@@ -79,7 +79,7 @@ int main( int argc, char* argv[])
         }
         farn=0; cel=0;
 
-        if ( input > -459,67 )
+        if ( input > -459.67 )
         {
             cel = (input-32)*5/9;
             kel = cel-273.15;

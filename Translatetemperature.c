@@ -17,7 +17,7 @@ int main( int argc, char* argv[])
                     {
                         farn = input*9/5+32;
                         kel = input+273.15;
-                        printf("%.2lf F\n%.2lf K\n", farn, kel);
+                        printf("%.2f F\n%.2f K\n", farn, kel);
                     }
                     else
                     {
@@ -30,7 +30,7 @@ int main( int argc, char* argv[])
                     {
                         cel = input-273.15;
                         farn = cel*9/5+32;
-                        printf("%.2lf F\n%.2lf C\n", farn, cel);
+                        printf("%.2f F\n%.2f C\n", farn, cel);
                     }
                     else
                     {
@@ -43,7 +43,7 @@ int main( int argc, char* argv[])
                     {
                         cel = (input-32)*5/9.0;
                         kel = cel-273.15;
-                        printf("%.2lf C\n%.2lf K\n", cel, kel);
+                        printf("%.2f C\n%.2f K\n", cel, kel);
                     }
                     else
                     {
@@ -59,7 +59,7 @@ int main( int argc, char* argv[])
         {
             farn = input*9/5.0+32;
             kel = input+273.15;
-            printf("%.2lf C:\n%.2lf F\n%.2lf K\n\n", input, farn, kel);
+            printf("%.2f C:\n%.2f F\n%.2f K\n\n", input, farn, kel);
         }
         else
         {
@@ -71,7 +71,7 @@ int main( int argc, char* argv[])
         {
             cel = input-273.15;
             farn = cel*9/5+32;
-            printf("%.2lf K:\n%.2lf F\n%.2lf C\n\n", input, farn, cel);
+            printf("%.2f K:\n%.2f F\n%.2f C\n\n", input, farn, cel);
         }
         else
         {
@@ -83,7 +83,7 @@ int main( int argc, char* argv[])
         {
             cel = (input-32)*5/9;
             kel = cel-273.15;
-            printf("%.2lf F:\n%.2lf C\n%.2lf K\n\n", input, cel, kel);
+            printf("%.2f F:\n%.2f C\n%.2f K\n\n", input, cel, kel);
         }
         else
         {
